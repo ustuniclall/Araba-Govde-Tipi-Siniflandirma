@@ -1,0 +1,30 @@
+# --- Python Sanal Ortam ve Paket Kalıntıları ---
+.venv/
+venv/
+ENV/
+bin/
+lib/
+include/
+share/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- İşletim Sistemi ve IDE Dosyaları ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- Model Ağırlıkları (GitHub Dosya Boyutu Sınırı Nedeniyle Muaf) ---
+proje_model.pth
+best_model.pth
+
+# --- Geçici Test Çıktıları ve Loglar ---
+preds.txt
+Preds.txt
+*.log
+
+# --- Jupyter Notebook Kontrol Noktaları ---
+.ipynb_checkpoints/
